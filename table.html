@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Table</title>
+    <style>
+        table,
+        th,
+        tr,
+        td{
+            border: 1px solid rgb(19, 19, 20);
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Student Table</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Product id</th>
+                <th>Product Name</th>
+                <th>Product Quantity</th>
+                <th>Product price</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>11</td>
+                <td>Wheat</td>
+                <td>250 bag</td>
+                <td>1500 rs</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Rice</td>
+                <td>255 bag</td>
+                <td>2000 rs</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Jawar</td>
+                <td>251 bag</td>
+                <td>2200 rs</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3> Table with Colspan</h3>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="2">full Name</th>
+                <th>Graduation</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sunil</td>
+                <td>Ghotkule</td>
+                <td>MCS</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td>Pravin</td>
+                <td>Kurhade</td>
+                <td>BE</td>
+                <td>Nanded</td>
+            </tr>
+            <tr>
+                <td>Shubham</td>
+                <td>karale</td>
+                <td>BCA</td>
+                <td>Kolhapur</td>
+            </tr>
+        </tbody>
+    </table>
+    <h3> Table with Rowspan</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>first Name</th>
+                <th>last Name</th>
+                <th>Graduation</th>
+                <th>City</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sunil</td>
+                <td>Ghotkule</td>
+                <td>MCS</td>
+                <td rowspan="2">Pune</td>
+            </tr>
+            <tr>
+                <td>Pravin</td>
+                <td>Kurhade</td>
+                <td>BE</td>
+            </tr>
+            <tr>
+                <td>Shubham</td>
+                <td>karale</td>
+                <td>BCA</td>
+                <td>Kolhapur</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
